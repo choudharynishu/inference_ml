@@ -7,4 +7,4 @@ install: pyproject.toml
 	poetry install --no-root
 
 check:
-	poetry run flake8 src
+	poetry run flake8 app
