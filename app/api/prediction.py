@@ -7,6 +7,7 @@ from services import model_inference_service
 
 inference = Blueprint('inference', __name__,)
 
+
 @inference.route("/pred")
 def get_prediction() -> dict:
     """

@@ -16,4 +16,3 @@ class Settings(BaseSettings):
 settings = Settings()
 logger.add(settings.log_filename,
            level=settings.log_level,)
-
