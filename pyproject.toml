@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "mlprojectmicroservice"
+version = "0.1.0"
+description = "This project gives a workflow for a ML project using the microservice architecture."
+authors = ["Nishu Choudhary <cnishu17@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
